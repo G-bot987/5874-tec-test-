@@ -19,44 +19,50 @@ export default function Footer() {
       </div>
 
       <div className="footer-menu">
-        <div className="explore">
-          <p>Explore</p>
-          <p>Services</p>
-          <p>Work</p>
-          <p>About</p>
-          <p>Blog</p>
-          <p>Careers</p>
-        </div>
-        <div className="services">
-          <p>Services</p>
-          <p>Brand</p>
-          <p>Development</p>
-          <p>Marketing</p>
-        </div>
-        <div className="questions">
-          <p>Questions</p>
-          <p>Call Us</p>
-          <p>0121 345 678</p>
-          <p>Email Us</p>
-          <a href="mailto:info@digitalspaniel.co.uk">
-            info@digitalspaniel.co.uk
-          </a>
-        </div>
-      </div>
+        <div className="top">
+          <div className="drop-down">
+            <p>Explore</p>
 
-      <div className="icon-box">
-        <a href="#">
-          <img src={facebook} className="icon" alt="our twitter" />
-        </a>
-        <a href="#">
-          <img src={twitter} className="icon" alt="our twitter" />
-        </a>
-        <a href="#">
-          <img src={linkin} className="icon" alt="our linked in" />
-        </a>
-        <a href="#">
-          <img src={insta} className="icon" alt="our instagram" />
-        </a>
+            <p className="menu-styling">Services</p>
+            <p className="menu-styling">Work</p>
+            <p className="menu-styling">About</p>
+            <p className="menu-styling">Blog</p>
+            <p className="menu-styling">Careers</p>
+          </div>
+          <div className="drop-down">
+            <p>Services</p>
+
+            <p className="menu-styling">Brand</p>
+            <p className="menu-styling">Development</p>
+            <p className="menu-styling">Marketing</p>
+          </div>
+          <div className="drop-down">
+            <p>Questions?</p>
+
+            <p className="menu-styling">Call Us</p>
+            <p className="menu-styling">0121 345 678</p>
+            <p className="menu-styling">Email Us</p>
+            <a className="menu-styling" href="mailto:info@digitalspaniel.co.uk">
+              info@digitalspaniel.co.uk
+            </a>
+          </div>
+        </div>
+        <div className="btm">
+          <div className="icon-box">
+            <a href="#">
+              <img src={facebook} className="icon" alt="our twitter" />
+            </a>
+            <a href="#">
+              <img src={twitter} className="icon" alt="our twitter" />
+            </a>
+            <a href="#">
+              <img src={linkin} className="icon" alt="our linked in" />
+            </a>
+            <a href="#">
+              <img src={insta} className="icon" alt="our instagram" />
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );
