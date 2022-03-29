@@ -8,8 +8,13 @@
 }
 
 .left-container{
-    width: rem;
+    width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
+
+
 .header-container{
 width: 32rem;
 height: 105px;
@@ -18,7 +23,6 @@ font-weight: bold;
 font-size: 48px;
 letter-spacing: 0px;
 margin-left: 6rem;
-margin-top: 0.2rem;
 }
 
 .talk-div{
@@ -29,8 +33,7 @@ margin-top: 0.2rem;
     border-style: solid;
     width: 4rem;
     font-family: "Open Sans", sans-serif;
-    font-weight: normal;
-    font-weight: normal 600;
+    font-weight: 600;
     margin-left: 6rem;
     margin-top: 15rem;
     color: #19293A;
@@ -46,25 +49,51 @@ margin-top: 0.2rem;
     color: #50647380;
     letter-spacing: 0.53px;
 }
+.btm{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 90px;
+    justify-content: flex-end;
+}
+
 
 .icon-box{
-  
-    margin-top: 35rem;
-    margin-left: 15rem;
+ 
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+ 
 }
 
 .icon{
     padding: 0.5rem;
+    width: 32px;
 }
+
+
 
 .footer-menu{
     display: flex;
-    flex-wrap: wrap;
-    width: 90rem;
-}
-
-.footer-menu{
-    display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     width: 40vw; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.top{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.drop-down{
+    margin-top: 3rem;
+}
+
+.menu-styling{
+    font-family: "Open Sans";
+    padding-top: 2rem;
+    font-weight: 600;
 }
