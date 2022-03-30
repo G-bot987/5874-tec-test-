@@ -10,7 +10,7 @@ export default function Footer() {
     <div className="footer-container">
       <div className="left-container">
         <div className="header-container">
-          <p>We're a brands best Friend</p>
+          <p className="header">We're a brands best Friend</p>
         </div>
         <div className="talk-div">Let's talk</div>
         <p className="copywrite">
@@ -21,7 +21,7 @@ export default function Footer() {
       <div className="footer-menu">
         <div className="top">
           <div className="drop-down">
-            <p>Explore</p>
+            <p className="no-margin">Explore</p>
 
             <p className="menu-styling">Services</p>
             <p className="menu-styling">Work</p>
@@ -30,14 +30,14 @@ export default function Footer() {
             <p className="menu-styling">Careers</p>
           </div>
           <div className="drop-down">
-            <p>Services</p>
+            <p className="no-margin"> Services</p>
 
             <p className="menu-styling">Brand</p>
             <p className="menu-styling">Development</p>
             <p className="menu-styling">Marketing</p>
           </div>
           <div className="drop-down">
-            <p>Questions?</p>
+            <p className="no-margin">Questions?</p>
 
             <p className="menu-styling">Call Us</p>
             <p className="menu-styling">0121 345 678</p>
