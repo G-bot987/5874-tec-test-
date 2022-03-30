@@ -2,7 +2,7 @@
 .footer-container{
     background-color:#EDEFF1 ;
     width: 100vw;
-    height:30vh;
+    height:50vh;
     display: flex;
     flex-direction: row;
 
@@ -11,7 +11,7 @@
 
 .left-container{
     max-width: 50vw;
-    height: 30vh;
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -164,6 +164,13 @@ margin-left: 6rem;
 @media( max-width:425px){
     .drop-down{
         margin-left: 1rem;
+            
+    }
+}
+
+@media( max-width:320px){
+    .top{
+       visibility: hidden;
             
     }
 }
