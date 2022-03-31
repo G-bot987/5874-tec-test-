@@ -12,7 +12,11 @@ export default function Footer() {
         <div className="header-container">
           <p className="header">We're a brands best Friend</p>
         </div>
-        <div className="talk-div">Let's talk</div>
+
+        <a className="talk-div" href="#">
+          Let's talk
+        </a>
+
         <p className="copywrite">
           Copyright © Digital Spaniel 2019. All rights reserved.
         </p>
