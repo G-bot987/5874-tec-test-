@@ -41,6 +41,7 @@ text-align: left;
 
 .title-1{
 margin: 0;
+font-size: 48px;
 text-align: left;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 color: #19293A;
@@ -49,6 +50,7 @@ color: #19293A;
 
 .title-2{
     margin: 0;
+    font-size: 48px;
     text-align: left;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #506473;
@@ -67,6 +69,7 @@ color: #19293A;
     letter-spacing: 0;
     font-weight: 500;
     margin-right: 3rem;
+    font-size: 21px;
 }
 
 
@@ -85,4 +88,47 @@ color: #19293A;
     width: 50vw;
     background-size: cover;
     
+}
+
+@media( max-width:760px){
+    .brand-statement{
+       font-size: 15px;      
+    }
+}
+
+@media( max-width:645px){
+    .intro-container{
+        margin-top: 0rem;
+            
+    }
+}
+
+@media( max-width:645px){
+    .logo{
+        width: 6rem;
+        height: 6rem;
+        margin-top: 0.5rem;
+        margin-left: 2rem;   
+    }
+}
+
+@media( max-width:645px){
+    .logo{
+        width: 6rem;
+        height: 6rem;
+        margin-top: 0.5rem;
+        margin-left: 2rem;   
+    }
+}
+
+@media( max-width:600px){
+    .intro-container{
+      margin-left: 0;
+    }
+}
+
+@media( max-width:1100px){
+    .title-1, .title-2{
+      font-size: 15px;
+    }
 }
