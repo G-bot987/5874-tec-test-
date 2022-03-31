@@ -10,8 +10,7 @@
 }
 
 .left-container{
-    max-width: 50vw;
-    
+    max-width: 50vw;   
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -44,7 +43,7 @@ margin-left: 6rem;
 .copywrite{
     margin-left: 6rem;
     font-family: "Open Sans", sans-serif;
-    font-size: 1vw;
+    font-size: 1.3em;
     color: #50647380;
     letter-spacing: 0.53px;
     flex-shrink: 4;
@@ -55,6 +54,8 @@ margin-left: 6rem;
     flex-wrap: nowrap;
     height: 90px;
     justify-content: flex-end;
+    margin-top: 5rem;
+
 }
 
 
@@ -98,6 +99,7 @@ margin-left: 6rem;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-top: 1.25rem;
 }
 
 
@@ -168,5 +170,8 @@ margin-left: 6rem;
     .top{
        visibility: hidden;
             
+    }
+    .copywrite{
+        font-size: 0.75em;
     }
 }
