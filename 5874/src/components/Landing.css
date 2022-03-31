@@ -1,0 +1,88 @@
+
+.landing-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.left-container-landing{
+    display: flex;
+    flex-direction: column;  
+}
+
+.intro-container{
+    margin-top: 4rem;
+    margin-left: 6rem;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.logo{
+    width: 8rem;
+    height: 8rem;
+    background-size: cover;
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+
+.brand-statement-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.key-word{color:#C0345E ;
+opacity: 75%;
+font-family: "Open Sans";
+font-weight: 600;
+text-align: left;
+}
+
+.title-1{
+margin: 0;
+text-align: left;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: #19293A;
+
+}
+
+.title-2{
+    margin: 0;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #506473;
+}
+
+
+.brand-statement-container{
+    display: flex;
+   
+}
+
+.brand-statement{
+    text-align: left;
+    color: #506473;
+    font-family: "Open Sans";
+    letter-spacing: 0;
+    font-weight: 500;
+    margin-right: 3rem;
+}
+
+
+
+
+.talk{
+    color: #19293A;
+    font-family: "Open Sans";
+    letter-spacing: 0;
+    text-decoration: none; border-bottom:3px solid #C0345E; 
+    width: 60px;
+    text-align: center;
+}
+
+.backdrop{
+    width: 50vw;
+    background-size: cover;
+    
+}
