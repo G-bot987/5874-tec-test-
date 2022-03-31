@@ -31,11 +31,7 @@ margin-left: 6rem;
 }
 
 .talk-div{
-    border-bottom:#C0345E ;
-    border-left:#EDEFF1 ;
-    border-right:#EDEFF1 ;
-    border-top: #EDEFF1;
-    border-style: solid;
+  text-decoration: none; border-bottom:3px solid #C0345E; 
     width: 4vw;
     font-family: "Open Sans", sans-serif;
     font-size: 1.25rem;
