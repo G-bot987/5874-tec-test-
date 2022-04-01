@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/5874-tec-test-/static/css/main.64582f77.css",
+    "main.css": "/5874-tec-test-/static/css/main.42efbc31.css",
     "main.js": "/5874-tec-test-/static/js/main.605689e8.js",
     "static/js/787.7f2700e1.chunk.js": "/5874-tec-test-/static/js/787.7f2700e1.chunk.js",
     "static/media/Spaniel01_gradient.png": "/5874-tec-test-/static/media/Spaniel01_gradient.763b94bc317becab4b8e.png",
     "static/media/Digital-Spaniel-logo01-01.png": "/5874-tec-test-/static/media/Digital-Spaniel-logo01-01.15760da225439ef6bb6a.png",
     "index.html": "/5874-tec-test-/index.html",
-    "main.64582f77.css.map": "/5874-tec-test-/static/css/main.64582f77.css.map",
+    "main.42efbc31.css.map": "/5874-tec-test-/static/css/main.42efbc31.css.map",
     "main.605689e8.js.map": "/5874-tec-test-/static/js/main.605689e8.js.map",
     "787.7f2700e1.chunk.js.map": "/5874-tec-test-/static/js/787.7f2700e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.64582f77.css",
+    "static/css/main.42efbc31.css",
     "static/js/main.605689e8.js"
   ]
 }
