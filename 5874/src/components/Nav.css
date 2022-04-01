@@ -50,7 +50,6 @@
 
 @media( max-width:768px){
     .navbar-list{
-    background-color: black;
       flex-flow: column nowrap;
       position: fixed;
       top: 0;
@@ -58,7 +57,7 @@
       height: 100vh;
       width: 70px;
       padding-top: 3.5rem;
-      padding-right: 1rem;
+      padding-right: 3.5rem;
       transition: transform 0.3s ease-in-out;
       margin-right: 0;
 
